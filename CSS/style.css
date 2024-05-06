@@ -5,6 +5,7 @@
 
 @import url("./header/cabecalho.css");
 @import url("./header/cabecalho__menu__lateral.css");
+@import url("./header/cabecalho__de__cima.css");
 
 /*  importacoes de estilo do main  */
 
@@ -17,6 +18,7 @@
 /*  importacoes de fontes */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 
 /* Todo o conteudo da pagina  */
@@ -28,8 +30,9 @@
     
     /*  cores que serão usadas no elementos da pagina  */
     
-    --cor-elemento-01: #252627;
-    --cor-elemento-02: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
+    --cor-elemento-01: black;
+    --cor-elemento-02: #252627;
+    --cor-elemento-03: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
    
 
     /*  cores que serão usadas apenas no textos da pagina  */
@@ -46,6 +49,7 @@
     
     /* fontes  */
 
+    --fonte-logo: "Shadows Into Light", cursive; /* fonte Da logo do site */
     --fonte-01: "Open Sans", sans-serif; /* fonte principal */
     
 }

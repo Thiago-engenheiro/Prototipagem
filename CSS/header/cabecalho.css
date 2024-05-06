@@ -1,7 +1,7 @@
 .cabecalho {
 
     display: grid;
-    grid-template-columns: 38% 1fr;
+    grid-template-columns: 40% 1fr 30%;
 
 }
 
@@ -10,9 +10,22 @@
 }
 
 @media (min-width: 1100px ) { 
+  
+
+    .cabecalho {
+
+        grid-template-columns: 30% 1fr 20%;
     
+    }
+  
 }
 
 @media (min-width: 1500px ) { 
+
+    .cabecalho {
+
+        grid-template-columns: 15% 1fr 10%;
+    
+    }
     
 }
