@@ -11,11 +11,9 @@
         background: var(--cor-elemento-01);
         display: flex;
         flex-direction: column;
-        gap: 12px;
         height: 100%;
-        padding: 30px 10px;
+        padding: 30px 20px;
         
-
         .cabecalho__menu__lateral__apresentacao {
 
             display: flex;
@@ -27,7 +25,6 @@
 
                 width: 50px;
                
-
             }
 
             .cabecalho__menu__lateral__apresentacao__titulo {
@@ -45,6 +42,7 @@
             background: var(--cor-elemento-02);
             padding: 20px 20px 20px 20px;
             border-radius: 5px;
+            margin: 10px 0px;
 
             .cabecalho__menu__lateral__opcoes__titulo {
 
@@ -67,6 +65,12 @@
                 .cabecalho__menu__lateral__opcoes__intens__texto {
     
                     margin: 20px 0px 20px 0px;
+    
+                }
+
+                .cabecalho__menu__lateral__opcoes__intens__texto:hover {
+    
+                    color: var(--cor-texto-01);
     
                 }
 

@@ -1,10 +1,11 @@
 .cabecalho__de__cima {
 
-    background: var(--cor-elemento-03);
+    background: var(--cor-elemento-04);
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 30px;
+    box-sizing: border-box;
 
 
     .cabecalho__de__cima__apresentacao {
@@ -49,7 +50,7 @@
             .cabecalho__de__cima__setas__proximo {
     
                 width: 25px;
-                margin: 0px 20px;
+                margin: 0px 10px;
     
             }
     
@@ -60,7 +61,7 @@
             .cabecalho__de__cima__icone {
     
                 width: 25px;
-                margin: 0px 10px;
+                margin: 0px 8px;
     
             }
     
@@ -71,19 +72,35 @@
     .cabecalho__de__cima__categoria {
 
         margin: 25px 0px;
+        display: flex;
 
         .cabecalho__de__cima__tipo__escolha {
 
             margin: 0px 20px 20px 0px;
+            padding: 0.8em 1.5em;
+            border-radius: 15%;
+            background: var(--cor-elemento-03);
+            
+
+        }
+
+        .cabecalho__de__cima__tipo__escolha:hover {
+
+            background: white;
+            color: black;
+
+        }
+
+        .container__ativo {
+
+            background: white;
+            color: black;
 
         }
 
     }
 
-
 }
-
-    
 
 @media (min-width: 720px ) { 
 
@@ -91,7 +108,8 @@
 
         .cabecalho__de__cima__apresentacao {
 
-        /*  display: none;  */
+           display: none;
+        
 
         }
 

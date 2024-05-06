@@ -6,6 +6,7 @@
 @import url("./header/cabecalho.css");
 @import url("./header/cabecalho__menu__lateral.css");
 @import url("./header/cabecalho__de__cima.css");
+@import url("./header/cabecalho__menu__direito.css");
 
 /*  importacoes de estilo do main  */
 
@@ -32,19 +33,19 @@
     
     --cor-elemento-01: black;
     --cor-elemento-02: #252627;
-    --cor-elemento-03: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
+    --cor-elemento-03: #2A2929;
+    --cor-elemento-04: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
    
 
     /*  cores que serão usadas apenas no textos da pagina  */
 
-    
-    
+    --cor-texto-01: #0F3666;
    
   
     
     /*  cores que serão usadas no textos e elementos da pagina  */
     
-    
+
     
     
     /* fontes  */
