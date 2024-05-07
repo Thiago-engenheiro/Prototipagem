@@ -7,7 +7,6 @@
     padding: 30px;
     box-sizing: border-box;
 
-
     .cabecalho__de__cima__apresentacao {
 
         display: flex;
@@ -57,12 +56,22 @@
         }
     
         .cabecalho__de__cima__icones {
+
+            display: flex;
+            align-items: center;
+            gap: 8px;
     
+            
             .cabecalho__de__cima__icone {
     
                 width: 25px;
                 margin: 0px 8px;
     
+            }
+
+            .cabecalho__de__cima__icone__descricao {
+
+                display: none;
             }
     
         }
@@ -76,8 +85,8 @@
 
         .cabecalho__de__cima__tipo__escolha {
 
-            margin: 0px 20px 20px 0px;
-            padding: 0.8em 1.5em;
+            margin: 0px 10px 10px 0px;
+            padding: 0.8em 0.8em;
             border-radius: 15%;
             background: var(--cor-elemento-03);
             
@@ -113,6 +122,42 @@
 
         }
 
+        .cabecalho__de__cima__categoria {
+
+            .cabecalho__de__cima__tipo__escolha {
+    
+                margin: 0px 20px 20px 0px;
+                padding: 0.8em 1.2em;
+               
+            }
+    
+        }
+
     }
 
+}
+
+@media (min-width: 1100px ) { 
+
+}
+
+@media (min-width: 1500px ) { 
+
+    .cabecalho__de__cima {
+
+        .cabecalho__de__cima__intens {
+    
+            .cabecalho__de__cima__icones {
+    
+                .cabecalho__de__cima__icone__descricao {
+    
+                    display: block;
+                }
+        
+            }
+        
+        }
+    
+    }
+    
 }

@@ -1,6 +1,8 @@
 /*  importacoes de estilo  */
 /* _______________________________________________________________________________________ */
 
+@import url("./pagina__inteira.css");
+
 /*  importacoes de estilo do header  */
 
 @import url("./header/cabecalho.css");
@@ -10,7 +12,7 @@
 
 /*  importacoes de estilo do main  */
 
-
+@import url("./main/principal.css");
 
 /*  importacoes de estilo do footer */
 
@@ -35,6 +37,7 @@
     --cor-elemento-02: #252627;
     --cor-elemento-03: #2A2929;
     --cor-elemento-04: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
+    --cor-elemento-05: #C4C4C433;
    
 
     /*  cores que serão usadas apenas no textos da pagina  */
