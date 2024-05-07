@@ -1,0 +1,137 @@
+.rodape {
+
+    display: flex;
+    position: fixed;
+    background: black;
+    padding: 1.0em;
+    text-align: center;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    .rodape__divisao {
+
+        display: grid;
+        grid-template-columns: auto 200px 50px auto;
+        grid-template-rows: auto auto auto;
+        gap: 0.5em;
+        
+        .rodape__capa__musica {
+        
+            margin-top: auto;
+            grid-area: 1 / 1 / 4 / 2;
+            width: 50px;
+            height: 50px;
+        
+        }
+        
+        .rodape__temporario__titulo {
+        
+            grid-area: 2 / 2 / 3 / 4;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+            cursor: pointer; 
+        
+        }
+        
+        .rodape__temporario__subtitulo {
+        
+            grid-area: 3 / 2 / 3 / 4;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+            cursor: pointer; 
+        
+        }
+
+        .rodape__icone {
+        
+            width: 15px;
+            height: 15px;
+            grid-area: 2 / 4 / 3 / 5;
+            margin-right: auto;
+    
+        }
+
+        .rodape__icone__02 {
+
+            grid-area: 2 / 5 / 3 / 6;
+            width: 15px;
+            height: 15px;
+            margin-right: auto;
+
+        }
+
+    }
+
+    .rodape__divisao__icones {
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 0.8em;
+        align-items: center;
+
+        .rodape__divisao__todos__icones {
+        
+            grid-area: 1 / 2 / 1 / 3;
+            width: 15px;
+            height: 15px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            gap: 30px;
+           
+            
+        
+        }
+
+        .rodape__meio__tempo {
+
+            grid-area: 2 / 1 / 3 / 2;
+
+        }
+
+        .linha {
+
+            width: 350px;
+            height: 2px;
+            background: white;
+            grid-area: 2 / 2 / 3 / 3;
+
+        }
+
+        .rodape__tempo {
+
+            grid-area: 2 / 3 / 3 / 4;
+
+        }
+        
+    }
+
+    .rodape__divisao__final {
+
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .rodape__icone {
+
+            width: 15px;
+            height: 15px;
+
+        }
+
+        .linha {
+
+            width: 150px;
+            height: 2px;
+            background: white;
+
+        }
+    }
+
+}

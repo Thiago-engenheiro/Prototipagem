@@ -32,6 +32,8 @@
                 font-family: var(--fonte-logo);
                 font-weight: 400;
                 font-size: 40px;
+                color: var(--cor-texto-01);
+                margin: 0px 0px 0px 10px;
                 
             }
 
@@ -44,10 +46,25 @@
             border-radius: 5px;
             margin: 10px 0px;
 
+            .ativo__continer {
+
+                color: var(--cor-texto-01);
+
+            }
+
             .cabecalho__menu__lateral__opcoes__titulo {
 
                 margin: 30px 0px 30px 0px;
+                font-weight: 700;
+                font-size: 1.2em; 
+                
     
+            }
+
+            .cabecalho__menu__lateral__opcoes__icone {
+
+                width: 25px;
+
             }
 
             .cabecalho__menu__lateral__opcoes__intens {
@@ -88,12 +105,19 @@
                     gap: 15px;
                     display: flex;
                     align-items: center;
+
+                    .cabecalho__menu__lateral__opcoes__icone__biblioteca {
+
+                        width: 40px;
+
+                    }
+
+                    
             
                     .cabecalho__menu__lateral__opcoes__icone {
     
                         width: 25px;
-                        height: 25px;
-        
+                       
                     }
     
                 }
@@ -107,11 +131,10 @@
                 .cabecalho__menu__lateral__opcoes__intens__biblioteca {
 
                     display: grid;
-                    grid-template-columns: 40px 12px 12px 100px 12px;
+                    grid-template-columns: 60px 12px 12px 100px 12px;
                     grid-template-rows: auto auto auto auto;
                     gap: 0.8em;
                  
-
                     .cartao__imagem__biblioteca {
         
                         grid-area: 1 / 1 / 4 / 2;
@@ -137,6 +160,7 @@
                     
                         width: 15px;
                         grid-area: 3 / 3 / 4 / 5;
+                        transform: rotate(90deg);
                 
                     }
 
@@ -155,9 +179,7 @@
                         grid-area: 2 / 6 / 2 / 7;
                         width: 15px;
 
-
                     }
-
 
                 }
 
