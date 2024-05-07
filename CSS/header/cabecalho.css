@@ -74,6 +74,7 @@
     .cabecalho {
 
         grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 12% 1fr;
     
         .cabecalho__menu__direito {
                 

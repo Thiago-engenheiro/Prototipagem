@@ -1,0 +1,50 @@
+.rodape {
+
+    .rodape__temporario {
+
+        position: fixed;
+        background: var(--cor-elemento-04);
+        padding: 1.5em;
+        text-align: center;
+        bottom: 0%;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        
+
+        .rodape__temporario__div {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            .rodape__temporario__titulo {
+
+              
+                margin: 0px 0px 25px 0px;
+                font-weight: 700;
+                font-size: 1.5em; 
+                
+
+            }
+
+            .rodape__temporario__icone {
+
+                width: 25px;
+                margin: 0px 0px 25px 0px;
+
+            }
+
+        }
+
+        .rodape__temporario__nomes {
+
+            font-weight: 700;
+            font-size: 1.5em; 
+
+        }
+
+    }
+
+}
