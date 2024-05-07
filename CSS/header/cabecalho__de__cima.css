@@ -73,9 +73,14 @@
             
             .cabecalho__de__cima__icone {
     
-                width: 25px;
+                width: 30px;
                 margin: 0px 8px;
     
+            }
+
+            .perfil__continier {
+
+                border-radius: 50%;
             }
 
             .cabecalho__de__cima__icone__descricao {
@@ -144,6 +149,7 @@
 
     }
 
+
 }
 
 @media (min-width: 1500px ) { 
@@ -163,6 +169,40 @@
         
         }
     
+        .cabecalho__de__cima__apresentacao {
+    
+            .cabecalho__de__cima__apresentacao__logo {
+    
+                width: 50px;
+    
+            }
+    
+            .cabecalho__de__cima__apresentacao__titulo {
+    
+                font-family: var(--fonte-logo);
+                font-weight: 400;
+                font-size: 40px;
+                font-weight: 700;
+                font-size: 1.75em; 
+    
+            }
+    
+        }
+    
+        .cabecalho__de__cima__intens {
+    
+            .cabecalho__de__cima__icones {
+    
+                .perfil__continier {
+
+                    width: 80px;
+                }
+
+        
+            }
+
+        }     
+        
     }
     
 }

@@ -1,6 +1,6 @@
 .principal {
 
-    background: var(--cor-elemento-02);
+    background: var(--cor-elemento-06);
     height: 100%;
     padding: 30px 20px;
     
@@ -46,8 +46,11 @@
                 height: 45px;
                 width: 45px;
                 margin: auto;
-                
-            
+                background-color: var(--cor-texto-01);
+                border-radius: 50%;
+                padding: 3px;
+
+
             }
             
             .principal__cards__titulo {
@@ -106,7 +109,7 @@
 
             .principal__imagem__capa {
 
-                height: 120px;
+                height: 140px;
                 width: 160px;
                 margin: 0px auto;
 
@@ -115,12 +118,21 @@
             .principal__podcasts__titulo {
 
                 margin: 10px 0px 0px 0px;
+                white-space: nowrap; 
+                overflow: hidden; 
+                text-overflow: ellipsis; 
+                cursor: pointer; 
 
             }
 
             .principal__podcasts__paragrafo {
 
-                margin: 90px 0px 0px 0px;
+                margin: 60px 0px 0px 0px;
+                white-space: nowrap; 
+                overflow: hidden; 
+                text-overflow: ellipsis; 
+                cursor: pointer; 
+                opacity: 50%;
 
             }
 
