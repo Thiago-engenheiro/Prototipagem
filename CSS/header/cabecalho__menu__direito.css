@@ -18,6 +18,13 @@
 
         }
 
+        .cabecalho__menu__direito__titulo {
+
+            font-weight: 700;
+            font-size: 1.0em; 
+
+        }
+
     }
 
     .cabecalho__menu__direito__imagem__disco {
@@ -70,6 +77,8 @@
         .cabecalho__menu__direito__titulo {
 
             margin: 10px 0px;
+            font-weight: 700;
+            font-size: 1.0em; 
 
         }
 
@@ -103,16 +112,4 @@
 
     }
     
-}
-
-@media (min-width: 720px ) { 
-
-}
-
-@media (min-width: 1100px ) { 
-    
-}
-
-@media (min-width: 1500px ) { 
-
 }
