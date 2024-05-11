@@ -150,7 +150,7 @@
     
             .principal__cards {
     
-                width: 370px;
+                width: 330px;
            
                 .principal__imagem__capa {
                     
@@ -175,7 +175,7 @@
     
             .principal__cards {
     
-                width: 400px;
+                width: 350px;
            
             }
     
@@ -193,7 +193,26 @@
     
             .principal__cards {
     
-                width: 550px;
+                width: 400px;
+           
+            }
+    
+        }
+    
+    }
+    
+}
+
+
+@media (min-width: 1700px ) { 
+
+    .principal {
+
+        .principal__div {
+    
+            .principal__cards {
+    
+                width: 450px;
            
             }
     
@@ -211,7 +230,25 @@
     
             .principal__cards {
     
-                width: 700px;
+                width: 550px;
+           
+            }
+    
+        }
+    
+    }
+    
+}
+
+@media (min-width: 2500px ) { 
+
+    .principal {
+
+        .principal__div {
+    
+            .principal__cards {
+    
+                width: 600px;
            
             }
     
