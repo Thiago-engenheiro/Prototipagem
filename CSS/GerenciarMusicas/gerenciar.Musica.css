@@ -1,28 +1,20 @@
 /*  importacoes de estilo  */
 /* _______________________________________________________________________________________ */
 
-@import url("./pagina__inteira.css");
-
 /*  importacoes de estilo do header  */
 
 @import url("./header/cabecalho.css");
-@import url("./header/cabecalho__menu__lateral.css");
-@import url("./header/cabecalho__de__cima.css");
-@import url("./header/cabecalho__menu__direito.css");
 
 /*  importacoes de estilo do main  */
 
-@import url("./main/principal.css");
+@import url("./main/vizualizarMusica.css");
+@import url("./main/adicionarMusica.css");
 
 /*  importacoes de estilo do footer */
 
-@import url("./footer/rodape.css");
+
 
 /*  importacoes de fontes */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
 
 
 /* Todo o conteudo da pagina  */
@@ -40,7 +32,7 @@
     --cor-elemento-04: linear-gradient(52.7deg, #E2EA48 -8.87%, #EACB48 50%, #FFC632 108.87%);
     --cor-elemento-05: #C4C4C433;
     --cor-elemento-06: linear-gradient(52.7deg, #0A0A03 -8.87%, #0F0D05 50%, #0F0C03 108.87%);
-
+    --cor-elemento-07: #F0F4F7;
 
     
     /*  cores que serão usadas apenas no textos da pagina  */
@@ -63,19 +55,9 @@
 
 .pagina__inteira {
 
-    color: white;
+    color: black;
     font-family: var(--fonte-01);
+    background: var(--cor-elemento-07);
+    
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

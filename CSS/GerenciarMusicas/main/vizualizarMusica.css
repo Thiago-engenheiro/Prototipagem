@@ -1,0 +1,132 @@
+.visualizarMusica {
+
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 4em;
+    border-radius: 10px;
+
+}
+
+.visualizarMusica__titulo {
+
+    margin: 0px 0px 5px 0px;
+    font-weight: 700;
+    font-size: 1.2em; 
+    color: var(--cor-texto-01);
+    padding: 1em 1.5em;
+
+}
+
+.visualizarMusica__linha {
+
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    height: 4px;
+    background: var(--cor-elemento-07);
+
+}
+
+.visualizarMusica__gerenciar--nomeDaMusica {
+
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    font-size: 0.9em; 
+    padding: 0em 2em;
+   
+}
+
+.visualizarMusica__gerenciar--divisao {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+
+}
+
+.visualizarMusica__gerenciar--divisao--esquerda{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.visualizarMusica__gerenciar--div--DataDaMusica {
+
+    font-weight: 400;
+    font-size: 0.8em; 
+    opacity: 50%;
+
+}
+
+.visualizarMusica__gerenciar--div--linha {
+
+    opacity: 50%;
+    width: 1px;
+    height: 15px;
+    background: black;
+
+}
+
+.visualizarMusica__gerenciar--div--circulo {
+
+    width: 5px;
+    height: 5px;
+    background: red;
+    border-radius: 50%;
+
+}
+
+.visualizarMusica__gerenciar--div--VerificarMusica {
+
+    font-weight: 400;
+    font-size: 0.8em; 
+    opacity: 50%;
+
+}
+
+.visualizarMusica__gerenciar--divisao--direita{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    
+}
+
+.visualizarMusica__gerenciar--div--link {
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8em; 
+
+}
+
+.visualizarMusica__gerenciar--div--Botao {
+
+    background: var(--cor-elemento-07);
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8em;
+    
+}
+
+.visualizarMusica__gerenciar--div--Botao:hover {
+
+    background: var(--cor-elemento-04);
+    
+}
+
+#musicImage {
+
+    padding: 0em 2em;
+
+}
+
+
+

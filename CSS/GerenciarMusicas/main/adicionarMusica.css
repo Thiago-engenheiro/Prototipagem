@@ -1,0 +1,77 @@
+.AdicionarMusica {
+
+    
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 5em 4em 2em 4em;
+    border-radius: 10px;
+
+}
+
+.AdicionarMusica__titulo {
+
+    margin: 0px 0px 5px 0px;
+    font-weight: 700;
+    font-size: 1.2em; 
+    color: var(--cor-texto-01);
+    padding: 1em 1.5em;
+
+}
+
+#AdicionarMusica__formulario {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.AdicionarMusica__formulario--nomeDaMusica {
+
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 0.9em; 
+    padding: 0em 2em;
+    
+
+}
+
+#musicName {
+
+    width: 50%;
+    margin: 0em 2em;
+    padding: 1em 0em;
+    border-radius: 10px;
+    border: none;
+    background: var(--cor-elemento-07);
+
+}
+
+#musicName::placeholder {
+
+    padding: 0em 1em;
+
+}
+
+.AdicionarMusica__formulario--nome {
+
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 0.9em; 
+    padding: 0em 2em;
+
+}
+
+.AdicionarMusica__formulario--adicionar {
+
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    font-size: 0.9em; 
+    padding: 0em 2em;
+    color: var(--cor-texto-01);
+    background: transparent;
+    border: none;
+    
+
+}
